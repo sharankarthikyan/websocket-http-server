@@ -3,7 +3,7 @@ const WebSocketServer = require("websocket").server;
 const httpServer = http.createServer();
 const websocketServer = new WebSocketServer({ httpServer });
 
-const PORT = 8080;
+const PORT = process.argv[2] || 8080;
 
 httpServer.listen(PORT, () => console.log(`listening on ${PORT}`));
 
