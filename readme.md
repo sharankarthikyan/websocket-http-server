@@ -5,7 +5,7 @@ Now, WebSocket server is running on port 8080.
 
 ## WebSocket Client
 
-Go to any tab and create websocket client using:
+Go to any chrome tab and create websocket client using:
 `let ws = new WebSocket("ws://localhost:8080")`
 
 Client can recieve message by using:
