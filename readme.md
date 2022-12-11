@@ -3,7 +3,7 @@
 Run the WebSocket server using `ode index.js 1111 & node index.js 2222 & node index.js 3333 & node index.js 4444`
 Now, we have 4 WebSocket server is running on port 1111, 2222, 3333, 4444.
 
-## Run NGINX
+## Run NGINX + Layer 4 Proxy
 
 Pre-requisites: make sure you have installed nginx in your system.
 Run nginx by using the below command, make sure to specify your path to config file.
