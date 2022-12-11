@@ -11,7 +11,7 @@ Run nginx by using the below command, make sure to specify your path to config f
 
 ## WebSocket Client
 
-Go to any tab and create websocket client using:
+Go to any chrome tab and create websocket client using:
 `let ws = new WebSocket("ws://localhost")`
 
 Client can recieve message by using:
